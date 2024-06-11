@@ -57,6 +57,6 @@ $rules['R3'] = number_format($rules['R3'], 2);
 $rules['R4'] = number_format($rules['R4'], 2);
 $minRule = number_format($minRule, 2);
 $maxRule = number_format($maxRule, 2);
-$Z = number_format($Z, 3);
+$Z = number_format($Z, 2);
 
 include 'result.php';
