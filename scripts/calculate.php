@@ -51,12 +51,12 @@ if($rules['R3'] > $rules['R4']) {
 $Z = (($minRule * $minProduction) + ($maxRule * $maxProduction)) / ($minRule + $maxRule);
 
 //Format hasil agar hanya menampilkan 3 angka di belakang koma
-$rules['R1'] = number_format($rules['R1'], 3);
-$rules['R2'] = number_format($rules['R2'], 3);
-$rules['R3'] = number_format($rules['R3'], 3);
-$rules['R4'] = number_format($rules['R4'], 3);
-$minRule = number_format($minRule, 3);
-$maxRule = number_format($maxRule, 3);
+$rules['R1'] = number_format($rules['R1'], 2);
+$rules['R2'] = number_format($rules['R2'], 2);
+$rules['R3'] = number_format($rules['R3'], 2);
+$rules['R4'] = number_format($rules['R4'], 2);
+$minRule = number_format($minRule, 2);
+$maxRule = number_format($maxRule, 2);
 $Z = number_format($Z, 3);
 
 include 'result.php';
